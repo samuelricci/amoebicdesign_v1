@@ -1,0 +1,316 @@
+/*=====================================================*/
+/*==================[ Color Palette ]==================*/
+/*===================[ HEX #587B7F ]===================*/
+/*===================[ HEX #1E2019 ]===================*/
+/*===================[ HEX #394032 ]===================*/
+/*===================[ HEX #8DAB7F ]===================*/
+/*===================[ HEX #CFEE9E ]===================*/
+/*=====================================================*/
+
+
+
+/*====================[ CSS Rest ]======================
+
+html, 
+body, 
+div, 
+span, 
+iframe,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+blockquote, 
+a, 
+ol, 
+ul, 
+li,
+fieldset, 
+form, 
+article, 
+aside, 
+figure, 
+figcaption, 
+footer, 
+header, 
+nav {
+    margin: 0;	
+    padding: 0;	
+    border: 0;	
+    font-size: 100%;	
+    font: inherit;	
+    vertical-align: baseline;
+}
+*/
+/*====================[ Typography ]======================
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    clear: both;
+}
+*/
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+html {
+    height: 100%;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+
+
+
+/*====================[ Header ]======================*/
+
+header {
+    background-color: #8DAB7F;
+    border-bottom: 1px solid black;
+    height: 6.5rem;
+    z-index: 500;
+    position: relative;
+}
+
+.titlelink {
+    transform: rotate(4deg) scale(1.1);
+    background-color: #587B7F;
+    display: inline-block;
+    float: right;
+    width: 100%;
+    
+}
+
+.titlelink a {
+    transform: skew(4deg);
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 8rem;
+    display: inline-block;
+    float: right;
+}
+
+.tagline {
+    transform: rotate(4deg) scale(1.1);
+    background-color: #1E2019;
+    display: inline-block;
+    float: right;
+    width: 100%;
+    
+}
+
+.tagline h2 {
+    transform: skew(4deg);
+    color: #FFFFFF;
+    padding-right: 8rem;
+    display: inline-block;
+    float: right;
+}
+
+/*===================[ Navigation ]====================*/
+
+nav {
+    width: 100%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    background-color: #8DAB7F;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    margin: 0;
+    float: left; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li.active {
+    background-color: white;
+}
+
+/*======================[ Body ]=======================*/
+
+body {
+    margin: 0;
+    height: 100%;
+    width: auto;
+    float: right;
+    display: inline-block;
+}
+
+.frontintro {
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  display: inline-block;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.leftinfo {
+    float: left;
+    position: relative;
+    margin: 5rem;
+    width: 30%;
+}
+
+.leftinfo p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rightinfo {
+    float: right;
+    position: relative;
+    margin: 5rem;
+    width: 30%;
+}
+
+.rightinfo p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#first {
+    background: url(images/background1.3front.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 52rem;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 300;
+}
+
+#second {
+    background: url(images/background2.1front.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 200;
+}
+
+#skills {
+    border-top: 1px solid black;
+    background-color: white;
+    width: 100%;
+	height: 35rem;
+}
+
+#fronttext {
+    border-right: 1px solid black;
+    width: 49%;
+	height: 35rem;
+    float: left;
+    margin: 0 auto;
+}
+
+#fronttext p,
+#backtext p {
+    text-align: center;
+}
+
+#backtext {
+    border-left: 1px solid black;
+    width: 49%;
+	height: 35rem;
+    float: right;
+    margin: 0 auto;
+}
+
+#back-end {
+    width: 49%;
+	height: 35rem;
+    float: left;
+    display: none;
+    margin: 0 auto;
+}
+
+#front-end {
+    width: 49%;
+	height: 35rem;
+    float: right;
+    display: none;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0 auto;
+    padding: 0;
+}
+
+figure.backskill img, figure.frontskill img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 1rem 30%;
+}
+
+/*=====================[ Footer ]======================*/
+
+footer {
+    border-top: 1px solid black;
+    background-color: #8DAB7F;
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+}
+
+/*==================[ Media Queries ]==================*/
+
+
+
+
+
